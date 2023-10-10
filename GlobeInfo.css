@@ -27,3 +27,39 @@ body{
     padding: 20px;
 }
 
+.body2 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .boite { grid-area: 1 / 1 / 2 / 3; }
+    .boite2 { grid-area: 1 / 3 / 2 / 5; }
+    .boite3 { grid-area: 1 / 5 / 2 / 7; }
+
+    .boite{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .boite2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .boite3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+   .body2{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .item{
+        display: flex;
+        flex-direction: row;
+    }
